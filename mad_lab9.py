@@ -22,7 +22,6 @@ def main():
             print("Your password has been encoded and stored!")
             print("Encoded password:", encoded_password)
         elif option == "2":
-            encoded_password = input("Please enter your password to decode: ")
             decoded_password = decode(encoded_password)
             print("Your password has been decoded!")
             print("Decoded password:", decoded_password)
